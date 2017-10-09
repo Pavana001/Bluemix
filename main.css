@@ -1,0 +1,28 @@
+.clearfix {
+    clear:both;
+}
+ 
+.contents {
+    margin : 20px auto;
+    width : 2000px;
+    border : 1px solid #ccc;
+    padding : 10px;
+ 
+}
+ 
+.contents div {
+    margin : 10px 0 10px 0;
+}
+ 
+#Pipeline_by_level_15, #Cov%_by_Level_17 {
+    float:left;
+ 
+}
+ 
+#VP contribution by Level 17 {
+    margin-top : 0px;
+}
+ 
+h1 {
+    margin-top :0px;
+}

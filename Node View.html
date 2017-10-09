@@ -2,10 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GBS Dashboard</title>
   <base href="https://polygit.org/shadycss+webcomponents+v1.0.1/web-animations-js+web-animations+v2.2/components/">
   <script src="webcomponentsjs/webcomponents-lite.js"></script>
@@ -17,9 +13,6 @@
   <link rel="import" href="iron-image\iron-image.html">
   <link rel="import" href="paper-card\paper-card.html">  
   <link rel="import" href="paper-listbox\paper-listbox.html"> 
-   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-   <link rel="stylesheet" type="text/css" href="normalize.css"></link>
-		<link rel="stylesheet" type="text/css" href="main.css"></link>
   
   
 </head>
@@ -66,27 +59,20 @@
 	      	
 		
 	         <div>
-          <paper-dropdown-menu label="Views" style="font-family:verdana;background-color: #C0C0C0;color: #000000;vertical-align: top;height:10%;">
+          <paper-dropdown-menu  style="font-family:verdana;background-color: #C0C0C0;color: #000000;vertical-align: top;height:10%;">
             <paper-listbox attr-for-selected="value" selected="B" slot="dropdown-content" >
 			
-			
-			
-			<a href="file:///C:/Users/gbs/list.html" value="A"><paper-item>By Brand Group</paper-item></a>
-			<a href="file:///C:/Users/gbs/chart.html" value="B"><paper-item>By Brand Sub Group</paper-item></a>
-			
-			
-		 
-              
+              <paper-item value="A">By Brand Group</paper-item>
+			  <paper-item value="B">By Brand Sub Group</paper-item>
+			  
           </paper-listbox>
           </paper-dropdown-menu>
 		  
-		   </div>       	
-	
 		  </app-toolbar>
-		  </div>
-
 		  
-  <script src="main.js"></script>
+        </div>       	
+	
+  
   
   
 </body>
